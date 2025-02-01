@@ -6,7 +6,7 @@ export default function Counter() {
   
   function handleIncrement() {
     if (count < 3) {
-      setCount(count + 1);
+      setCount((count)=>count + 1);
     }
   };
 
